@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>الصفحة الثانية - عرض الاختبار</title>
+  <meta name="description" content="الصفحة الثانية لاختبار CTA ومقارنة الأداء مع الصفحة الرئيسية">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Brand<span>Lab</span></a>
+      <nav class="nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="page2.html">تسجيل / عرض</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero small-hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>هذه الصفحة مصممة لتكون متغيرة (Variant)</h1>
+          <p>استبدل عنوانًا أو لونًا لزر CTA أو النص لتشغيل اختبار A/B.</p>
+          <div class="btns">
+            <button class="btn primary" onclick="recordEvent('cta_clicked')">جرب CTA</button>
+            <a class="btn outline" href="index.html">رجوع للصفحة الأولى</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card">
+            <h3>محتوى تجريبي</h3>
+            <p>يمكنك تعديل هذا النص أو تبديل صورته لاختبار تأثير المحتوى على التحويل.</p>
+            <button class="btn small primary" onclick="location.href='index.html'">عودة</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <h2>نقاط للاختبار</h2>
+      <ul class="test-list">
+        <li>نص العنوان</li>
+        <li>نص الزر ولونه</li>
+        <li>الموضع واللغة في الكارت</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 BrandLab — تجربة A/B</p>
+    </div>
+  </footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>

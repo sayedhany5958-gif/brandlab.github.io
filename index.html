@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>موقع تدريبي احترافي - الصفحة الرئيسية</title>
+  <meta name="description" content="موقع تدريبي بسيط واحترافي لاختبار استراتيجيات Growth Hacking — صفحة رئيسية ونموذج تسجيل">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Brand<span>Lab</span></a>
+      <nav class="nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="page2.html">تسجيل / عرض</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>اختبر مهارات Growth Hacking على موقع تدريبي احترافي</h1>
+          <p>صفحة بسيطة قابلة للتعديل — نموذج جمع إيميلات، قائمتين للـ CTA، ورابط لصفحة ثانية لاختبار المتغيرات.</p>
+          <div class="btns">
+            <button class="btn primary" id="cta-getstarted">ابدأ الآن</button>
+            <a class="btn outline" href="page2.html">اعرف أكثر</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <form id="lead-form" class="card-form" onsubmit="return false;">
+            <h3>انضم لقائمة الاختبار</h3>
+            <p> سجّل بريدك الإلكتروني لتجربة حملات وتجارب A/B. </p>
+            <input id="email" type="email" placeholder="بريدك الإلكتروني" required>
+            <div class="row">
+              <button id="submit-btn" class="btn primary small">اشترك</button>
+              <button id="demo-btn" class="btn outline small">تجربة سريعة</button>
+            </div>
+            <p class="muted" id="form-msg" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <h2>مميزات الموقع التجريبي</h2>
+      <div class="grid">
+        <div class="feature">
+          <h4>صفحتين قابلة للاختبار</h4>
+          <p>يمكنك عمل نسخ للصفحتين لتجارب A/B ومقارنة معدلات التحويل.</p>
+        </div>
+        <div class="feature">
+          <h4>نموذج جمع الإيميلات</h4>
+          <p>يخزن الإيميل محليًا لسهولة الاختبار بدون سيرفر.</p>
+        </div>
+        <div class="feature">
+          <h4>Responsive</h4>
+          <p>تصميم متجاوب يعمل على الموبايل والكمبيوتر لاختبار سلوك المستخدم.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-bar">
+      <div class="container">
+        <p>مستعد تبدأ؟ جرب إرسال إيميل تجريبي أو افتح الصفحة الثانية لعمل مقارنة.</p>
+        <div class="btns">
+          <button class="btn primary" onclick="location.href='page2.html'">افتح الصفحة الثانية</button>
+          <button class="btn outline" onclick="document.getElementById('email').focus()">اكتب إيميل</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 BrandLab — موقع تدريبي لأغراض تعليمية</p>
+    </div>
+  </footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
